@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:id="@+id/btn_push"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="push"/>
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="play"/>
+
+    <Button
+        android:id="@+id/btn_clip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="clip Audio"/>
+    <Button
+        android:id="@+id/btn_clip_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="clip Video&amp;Audio"/>
+    <Button
+        android:id="@+id/btn_merge_video"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Merge video"/>
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="camera2"/>
+    <Button
+        android:id="@+id/btn_projection_live"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Projection Live"/>
+    <Button
+        android:id="@+id/btn_x264"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X264"/>
+</LinearLayout>
